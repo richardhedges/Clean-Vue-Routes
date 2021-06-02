@@ -71,14 +71,9 @@ If the third parameter is parsed as a string, the callback may be parsed as the 
 
 **Add Route**
 
+The path paramter is optional and can be omitted.
+
 ```addRoute('name', 'component', 'path', 'callback')```
-
-
-**Add Route (with callback)**
-
-This allows you to wrap child routes inside of other routes.
-
-```addRoute('name', 'component', 'callback')```
 
 
 **Add Route Group**
