@@ -1,8 +1,14 @@
+addRoute('login', 'Login')
+
 addRoute('dashboard', 'Dashboard', '/')
 
-addRoute('users', 'Users', () => {
+addRouteGroup({ middleware: 'auth' }, () => {
 
-	addRoute('view', 'Users/View', 'view/:user')
-	addRoute('new', 'Users/New')
+    addRoute('users', 'Users', () => {
 
+        addRoute('view', 'Users/View', 'view/:user')
+        addRoute('new', 'Users/New')
+
+    })
+    
 })
