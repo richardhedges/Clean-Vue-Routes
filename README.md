@@ -13,7 +13,7 @@ import Routes from './router'
 import App from './components/App'
 
 const app = new Vue({
-	el: '#app',
+    el: '#app',
     router: Routes,
     render: h => h(App)
 })
@@ -23,7 +23,7 @@ const app = new Vue({
 # App.vue
 
 <template>
-	<router-view :key="$router.path"></router-view>
+    <router-view :key="$router.path"></router-view>
 </template>
 ```
 
@@ -34,9 +34,9 @@ addRoute('dashboard', 'Dashboard', '/')
 
 addRoute('users', 'Users', () => {
 
-	addRoute('view', 'Users/View', 'view/:user')
-	addRoute('new', 'Users/New')
-	addRoute('edit', 'Users/Edit', 'edit/:user')
+    addRoute('view', 'Users/View', 'view/:user')
+    addRoute('new', 'Users/New')
+    addRoute('edit', 'Users/Edit', 'edit/:user')
 
 })
 ```
