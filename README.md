@@ -1,4 +1,4 @@
-# Vue Router
+# Clean Vue Routes
 
 This is a simple router class for use with Vue Router.
 
