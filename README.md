@@ -80,4 +80,4 @@ The path paramter is optional and can be omitted.
 
 This method is mainly used to keep routes tidy, it gives you the ability to group routes without the need for additional components to be uncessarily registered.
 
-```addRouteGroup('path', 'component', 'parameters:optional')```
+```addRouteGroup('name', 'component', 'parameters:optional')```
