@@ -71,7 +71,7 @@ If the third parameter is parsed as a string, the callback may be parsed as the 
 
 **Add Route**
 
-```addRoute('name', 'component', 'path:optional')```
+```addRoute('name', 'component', 'path', 'callback')```
 
 
 **Add Route (with callback)**
